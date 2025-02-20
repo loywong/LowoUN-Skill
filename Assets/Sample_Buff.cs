@@ -1,4 +1,5 @@
 using LowoUN.Buff;
+using LowoUN.Data;
 using UnityEngine;
 
 // TEST CASE:A monster cast a buff to Hero

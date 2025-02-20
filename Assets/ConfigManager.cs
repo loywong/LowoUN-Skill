@@ -1,8 +1,9 @@
 using System.Collections.Generic;
+using LowoUN.Buff;
 using LowoUN.Util;
 using UnityEngine;
 
-namespace LowoUN.Buff {
+namespace LowoUN.Data {
     public class ConfigManager : Manager<ConfigManager> {
         Dictionary<BattleUnitType, BattleUnitConfig> battleUnits = new ();
         Dictionary<BuffType, BuffConfig> buffs = new ();
